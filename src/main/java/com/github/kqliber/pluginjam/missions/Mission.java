@@ -4,7 +4,7 @@ public interface Mission {
 
     int getProgress();
 
-    int setProgress(int progress);
+    void setProgress(int progress);
 
     int getCompletionAmount();
 
