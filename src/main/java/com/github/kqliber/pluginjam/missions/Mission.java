@@ -1,5 +1,7 @@
 package com.github.kqliber.pluginjam.missions;
 
+import com.github.kqliber.pluginjam.user.User;
+
 public interface Mission {
 
     int getProgress();
@@ -8,7 +10,5 @@ public interface Mission {
 
     int getCompletionAmount();
 
-    int setCompletionAmount(int completion);
-
-    void onComplete();
+    void onComplete(User user);
 }
